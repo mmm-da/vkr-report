@@ -76,8 +76,8 @@ def generate_config():
         macro_file.write('\\newcommand{\\Year}{}\n')
         print('ОШИБКА!!! В conf.json отсутствует или неправильно обозначено поле Year.')
 
-    macro_file.write('\\newcommand{\\LabLineTitle}{\\textbf{Курсовая работа}\\linebreak}\n')
-    macro_file.write('\\newcommand{\\LabLineHead}{\\section{Курсовая работа}}\n')
+    macro_file.write('\\newcommand{\\LabLineTitle}{\\textbf{(ТИТУЛЬНИК ВРЕМЕННЫЙ)Выпускная квалификационная работа}\\linebreak}\n')
+    macro_file.write('\\newcommand{\\LabLineHead}{\\section{Выпускная квалификационная работа}}\n')
     macro_file.close()
 
 def generate_body():

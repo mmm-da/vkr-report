@@ -41,8 +41,8 @@ python %tools_dir%\build_listings.py
 echo ----------------
 echo Компиляция LaTeX
 echo ----------------
-pdflatex --shell-escape --halt-on-error %tex_dir%/coursework.tex
-pdflatex --shell-escape --halt-on-error %tex_dir%/coursework.tex
+pdflatex --shell-escape --halt-on-error %tex_dir%/vkr.tex
+pdflatex --shell-escape --halt-on-error %tex_dir%/vkr.tex
 if %ERRORLEVEL% NEQ 0 ( 
     echo !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     echo Компиляция завершилась с ошибкой
