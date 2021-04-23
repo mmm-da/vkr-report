@@ -21,8 +21,8 @@ python ${TOOLS_DIR}/compile_md.py
 echo ----------------
 echo Компиляция LaTeX
 echo ----------------
-pdflatex --shell-escape ${TEX_DIR}/coursework.tex | grep '^!.*' -A200 --color=always 
-pdflatex --shell-escape ${TEX_DIR}/coursework.tex | grep '^!.*' -A200 --color=always 
+pdflatex --shell-escape ${TEX_DIR}/vkr.tex | grep '^!.*' -A200 --color=always 
+pdflatex --shell-escape ${TEX_DIR}/vkr.tex | grep '^!.*' -A200 --color=always 
 
 echo -------------------------
 echo Удаление временных файлов
