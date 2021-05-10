@@ -1,0 +1,10 @@
+PWD c:/Users/pc/Documents/GitHub/vkr-report/tex_files
+INPUT c:/texlive/2019/texmf.cnf
+INPUT c:/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/pc/Documents/GitHub/vkr-report/tex_files/vkr.tex
+OUTPUT c:/Users/pc/Documents/GitHub/vkr-report/tex_files/vkr.log
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+INPUT c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
